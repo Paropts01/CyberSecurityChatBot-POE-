@@ -10,6 +10,11 @@ namespace CyberSecurityChatBot_POE_
     {
         static void Main(string[] args)
         {
+            
+
+            // Display ASCII logo
+            AsciiArt.DisplayLogo();
+
             AudioPlayer player = new AudioPlayer();
             player.PlayGreeting();
         }

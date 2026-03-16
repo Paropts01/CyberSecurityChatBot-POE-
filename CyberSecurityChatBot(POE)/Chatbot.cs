@@ -8,6 +8,21 @@ namespace CyberSecurityChatBot_POE_
 {
     public class Chatbot
     {
+        // Encapsulation
+        private string userName = "";
 
+        // Property
+        public string UserName
+        {
+            get { return userName; }
+            set { userName = value; }
+        }
+
+        // Virtual method for polymorphism
+        public virtual void StartChat()
+        {
+            Console.WriteLine("Chatbot starting...");
+        }
     }
 }
+

@@ -46,8 +46,10 @@
     <Compile Include="AsciiArt.cs" />
     <Compile Include="AudioPlayer.cs" />
     <Compile Include="Chatbot.cs" />
+    <Compile Include="CyberSecurityChatBot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypingStyle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

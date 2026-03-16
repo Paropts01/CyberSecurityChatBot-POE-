@@ -17,6 +17,14 @@ namespace CyberSecurityChatBot_POE_
 
             AudioPlayer player = new AudioPlayer();
             player.PlayGreeting();
+
+            // Create chatbot object
+            Chatbot bot = new CyberSecurityChatBot();
+
+            // Start chatbot
+            bot.StartChat();
+
+            Console.ReadLine();
         }
     }
 }

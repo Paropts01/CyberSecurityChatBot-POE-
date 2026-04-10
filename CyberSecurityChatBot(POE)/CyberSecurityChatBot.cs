@@ -8,13 +8,13 @@ namespace CyberSecurityChatBot_POE_
 {
     internal class CyberSecurityChatBot : Chatbot
     {
-        public void StartChat() // removed override
+        public void StartChat() 
         {
             try
             {
-                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.ForegroundColor = ConsoleColor.Cyan;
 
-                Console.Write("\nWhat is your name? : ");
+                TypingStyle.TypeText("\nBot: What is your name? : ");
                 UserName = Console.ReadLine();
 
                 // Input validation
@@ -22,9 +22,9 @@ namespace CyberSecurityChatBot_POE_
                 {
                     UserName = "User";
                 }
-
-                Console.WriteLine($"\nHello {UserName}! Welcome to the Cybersecurity Awareness Bot.");
-                Console.WriteLine("Ask me about cybersecurity!\n");
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                TypingStyle.TypeText($"\nHello {UserName}! Welcome to the Cybersecurity Awareness Bot.");
+                TypingStyle.TypeText($"How may i help you {UserName}");
 
                 ChatLoop();
             }
@@ -50,7 +50,7 @@ namespace CyberSecurityChatBot_POE_
             {
                 try
                 {
-                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     TypingStyle.TypeText("\nYou: ");
 
                     userInput = Console.ReadLine();
@@ -58,7 +58,7 @@ namespace CyberSecurityChatBot_POE_
                     if (string.IsNullOrWhiteSpace(userInput))
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Bot: Please enter a valid question.");
+                        TypingStyle.TypeText("\nBot: Please enter a valid question.");
                         continue;
                     }
 
@@ -66,33 +66,40 @@ namespace CyberSecurityChatBot_POE_
 
                     if (userInput.Contains("exit"))
                     {
-                        TypingStyle.TypeText("Bot: Goodbye! Stay safe online!");
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        TypingStyle.TypeText("\nBot: Goodbye! Stay safe online!");
                         break;
                     }
                     else if (userInput.Contains("how are you"))
                     {
-                        TypingStyle.TypeText("Bot: I'm running perfectly and ready to help you stay safe online!");
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        TypingStyle.TypeText("\nBot: I'm running perfectly and ready to help you stay safe online!");
                     }
                     else if (userInput.Contains("purpose"))
                     {
-                        TypingStyle.TypeText("Bot: My purpose is to teach people about cybersecurity awareness.");
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        TypingStyle.TypeText("\nBot: My purpose is to teach people about cybersecurity awareness.");
                     }
                     else if (userInput.Contains("password"))
                     {
-                        TypingStyle.TypeText("Bot: Use strong passwords with letters, numbers and symbols.");
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        TypingStyle.TypeText("\nBot: Use strong passwords with letters, numbers and symbols.");
                     }
                     else if (userInput.Contains("phishing"))
                     {
-                        TypingStyle.TypeText("Bot: Phishing is when attackers trick you into giving personal information through fake emails or websites.");
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        TypingStyle.TypeText("\nBot: Phishing is when attackers trick you into giving personal information through fake emails or websites.");
                     }
                     else if (userInput.Contains("safe browsing"))
                     {
-                        TypingStyle.TypeText("Bot: Only visit trusted websites and avoid clicking suspicious links.");
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        TypingStyle.TypeText("\nBot: Only visit trusted websites and avoid clicking suspicious links.");
                     }
                     else
 
                     {
-                        TypingStyle.TypeText("Bot: I didn't quite understand that. Could you rephrase?");
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        TypingStyle.TypeText("\nBot: I didn't quite understand that. Could you rephrase?");
                     }
                 }
                 catch (Exception ex)

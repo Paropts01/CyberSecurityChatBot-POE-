@@ -16,13 +16,7 @@ namespace CyberSecurityChatBot_POE_
         {
             get { return userName; }
             set { userName = value; }
-        }
-
-        // Virtual method for polymorphism
-        public virtual void StartChat()
-        {
-            Console.WriteLine("Chatbot starting...");
-        }
+        } 
     }
 }
 

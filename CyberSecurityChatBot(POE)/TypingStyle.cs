@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CyberSecurityChatBot_POE_
 {
-    internal class TypingStyle
+    public class TypingStyle
     {
         // Method that prints text slowly (typing animation)
         public static void TypeText(string message)

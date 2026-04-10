@@ -19,9 +19,7 @@ namespace CyberSecurityChatBot_POE_
             player.PlayGreeting();
 
             // Create chatbot object
-            Chatbot bot = new CyberSecurityChatBot();
-
-            // Start chatbot
+            CyberSecurityChatBot bot = new CyberSecurityChatBot();
             bot.StartChat();
 
             Console.ReadLine();

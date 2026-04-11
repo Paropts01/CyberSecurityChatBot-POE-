@@ -63,9 +63,28 @@ about online safety in an interactive and engaging way.
 - Store user interaction history
 - Integrate AI-based responses for more advanced conversations
 
-# references 
+# Screenshots
+- work flow of this project
+- <img width="836" height="596" alt="workflow" src="https://github.com/user-attachments/assets/2ce7c3f1-464d-403d-b9b1-feefd1803e8a" />
+- ASCII Logo and the basic professional interaction
+- <img width="864" height="688" alt="ascii logo and basc interaction" src="https://github.com/user-attachments/assets/ad196d11-c0c4-4d5e-8793-6bc01d8325cb" />
+- Navigation help for new users 
+- <img width="868" height="331" alt="Navigation help" src="https://github.com/user-attachments/assets/6190866b-411b-45ad-8756-7f10c67ccb3c" />
+- Professional and friendly answers keeping users engaged.
+- <img width="860" height="623" alt="professional answering" src="https://github.com/user-attachments/assets/791d91fc-2385-44b3-a163-a1c788b28de5" />
+- Error massages that also guides the user back to the topics.
+- <img width="871" height="384" alt="Error handling" src="https://github.com/user-attachments/assets/17e5797c-c63d-4458-b6f6-333a99fb8621" />
+
+# References 
 - ASCII Art Logo. Acessed on : https://www.asciiart.eu/
 - ChatGpt. Acesssed on : https://chatgpt.com/
 - cloud converter. Acessed on : https://cloudconvert.com/m4a-to-wav
+
+
+
+
+
+
+
 
 

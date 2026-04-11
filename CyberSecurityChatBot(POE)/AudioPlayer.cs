@@ -13,7 +13,7 @@ namespace CyberSecurityChatBot_POE_
         {
             try
             {
-                SoundPlayer player = new SoundPlayer("Welcome.wav");
+                SoundPlayer player = new SoundPlayer("welcome.wav");
                 player.PlaySync();
             }
             catch

@@ -8,14 +8,14 @@ namespace CyberSecurityChatBot_POE_
 {
     public class Chatbot
     {
-        // Encapsulation
+        // Encapsulation - private field with public property
         private string userName = "";
 
-        // Property
-        public string UserName
+        
+        public string UserName// Property to access the private field
         {
-            get { return userName; }
-            set { userName = value; }
+            get { return userName; }// Getter returns the value of userName
+            set { userName = value; }// Setter assigns a value to userName
         } 
     }
 }

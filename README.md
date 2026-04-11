@@ -65,7 +65,7 @@ about online safety in an interactive and engaging way.
 
 # references 
 - ASCII Art Logo. Acessed on : https://www.asciiart.eu/
-- ChatGbt. Acesssed on : https://chatgpt.com/
+- ChatGpt. Acesssed on : https://chatgpt.com/
 - cloud converter. Acessed on : https://cloudconvert.com/m4a-to-wav
 
 

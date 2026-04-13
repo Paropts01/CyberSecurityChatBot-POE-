@@ -10,7 +10,7 @@ namespace CyberSecurityChatBot_POE_
     {
         public static void DisplayLogo()
         {
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Magenta;
 
             Console.WriteLine("=============================================================");
             Console.WriteLine("             CYBERSECURITY AWARENESS CHATBOT                 ");

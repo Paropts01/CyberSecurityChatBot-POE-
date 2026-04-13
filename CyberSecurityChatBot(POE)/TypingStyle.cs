@@ -15,7 +15,7 @@ namespace CyberSecurityChatBot_POE_
             foreach (char letter in message)
             {
                 Console.Write(letter);
-                Thread.Sleep(40); // speed of typing (milliseconds)
+                Thread.Sleep(30); // speed of typing (milliseconds)
             }
 
             Console.WriteLine();

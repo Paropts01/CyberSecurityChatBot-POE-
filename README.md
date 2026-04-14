@@ -66,7 +66,7 @@ about online safety in an interactive and engaging way.
 # Screenshots
 - work flow of this project
 - <img width="836" height="596" alt="workflow" src="https://github.com/user-attachments/assets/2ce7c3f1-464d-403d-b9b1-feefd1803e8a" />
-- ASCII Logo and the basic professional interaction
+- ASCII Logo and the basic professional interaction. The welcome voice is also played.
 - <img width="864" height="688" alt="ascii logo and basc interaction" src="https://github.com/user-attachments/assets/ad196d11-c0c4-4d5e-8793-6bc01d8325cb" />
 - Navigation help for new users 
 - <img width="868" height="331" alt="Navigation help" src="https://github.com/user-attachments/assets/6190866b-411b-45ad-8756-7f10c67ccb3c" />

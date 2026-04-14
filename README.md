@@ -76,9 +76,11 @@ about online safety in an interactive and engaging way.
 - <img width="871" height="384" alt="Error handling" src="https://github.com/user-attachments/assets/17e5797c-c63d-4458-b6f6-333a99fb8621" />
 
 # References 
-- ASCII Art Logo. Acessed on : https://www.asciiart.eu/
-- ChatGpt. Acesssed on : https://chatgpt.com/
-- cloud converter. Acessed on : https://cloudconvert.com/m4a-to-wav
+- ASCII Art Archive (n.d.) ASCII Art Logo, ASCII Art Archive. Available at: https://www.asciiart.eu/ (Accessed: 16 March 2026).
+- OpenAI (2026) ChatGPT [AI language model]. Available at: https://chatgpt.com/ (Accessed: 10 March 2026 - 13 April 2026 ).
+- CloudConvert (2026) M4A to WAV, CloudConvert. Available at: https://cloudconvert.com/m4a-to-wav (Accessed: 11 April 2026). 
+
+
 
 
 
